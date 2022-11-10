@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color: ghostwhite;
+    
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+h5,
+p {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.styl {
+    margin: 10px;
+}
+.containerv2{
+
+    max-width: 200px;
+    margin: 20px auto;
+}
+.containerv2.align{
+    max-width: 150px;
+}
+.containerv3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-top:18px;
+    font-size: 9px;
+}
+.text{
+    margin: 0;
+}
+
+.main_block{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+}
+
+.info_block{
+    width: 270px;
+    position:relative;
+    background-color: white;
+   
+}
+
+.head{
+    position: relative;
+   background-color: #a5ab61;
+   height: 40px;
+   color:white;
+}
+
+.mbody{
+    position: relative;
+}
+.icon{
+    position: relative;
+}
+
+.head::after{
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 100%;
+    background: url(../img/s-icon.png) center #909659;
+    top: 0;
+    right: 0;
+}
+
+.icon.n::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    background: url(../img/s-icon.png);
+    left: -25px;
+    top: -9px;
+    
+}
+
+.icon.m::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: url(../img/s-icon.png);
+    background-position-x: 52px;
+    left: -25px;
+    top: -11px;
+    
+}
+
+.icon.c::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: url(../img/s-icon.png);
+    background-position-x: 124px;
+    left: -25px;
+    top: -9px;
+    
+}
+
+.icon.c::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: url(../img/s-icon.png);
+    background-position-x: 104px;
+    right: -50px;
+    top: -9px;
+    
+}
+
+.info_block::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/s-icon.png);
+    background-position-x: 30px;
+    right: 0px;
+    bottom: 0px;
+    
+}
